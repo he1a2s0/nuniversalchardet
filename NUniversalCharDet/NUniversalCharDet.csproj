@@ -64,10 +64,12 @@
     <Compile Include="Prober\Sequence\Win1251BulgarianModel.cs" />
     <Compile Include="Prober\Sequence\Win1251Model.cs" />
     <Compile Include="Prober\Sequence\Win1253Model.cs" />
+    <Compile Include="Prober\StateMachine\Big5SMModel .cs" />
+    <Compile Include="Prober\StateMachine\CodingStateMachine.cs" />
+    <Compile Include="Prober\StateMachine\EUCJPSMModel.cs" />
+    <Compile Include="Prober\StateMachine\PkgInt.cs" />
+    <Compile Include="Prober\StateMachine\SMModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Prober\StateMachine\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
