@@ -57,7 +57,13 @@
     <Compile Include="Prober\Sequence\Ibm866Model.cs" />
     <Compile Include="Prober\Sequence\Koi8rModel.cs" />
     <Compile Include="Prober\Sequence\Latin5BulgarianModel.cs" />
+    <Compile Include="Prober\Sequence\Latin5Model .cs" />
+    <Compile Include="Prober\Sequence\Latin7Model.cs" />
+    <Compile Include="Prober\Sequence\MacCyrillicModel.cs" />
     <Compile Include="Prober\Sequence\SequenceModel.cs" />
+    <Compile Include="Prober\Sequence\Win1251BulgarianModel.cs" />
+    <Compile Include="Prober\Sequence\Win1251Model.cs" />
+    <Compile Include="Prober\Sequence\Win1253Model.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
