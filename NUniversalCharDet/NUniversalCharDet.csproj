@@ -43,6 +43,8 @@
     <Compile Include="Prober\ContextAnalysis\SJISContextAnalysis.cs" />
     <Compile Include="Prober\DistributionAnalysis\Big5DistributionAnalysis.cs" />
     <Compile Include="Prober\DistributionAnalysis\CharDistributionAnalysis.cs" />
+    <Compile Include="Prober\DistributionAnalysis\EUCJPDistributionAnalysis.cs" />
+    <Compile Include="Prober\DistributionAnalysis\JISDistributionAnalysis.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
