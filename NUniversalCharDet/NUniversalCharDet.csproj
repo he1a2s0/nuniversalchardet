@@ -44,11 +44,23 @@
     <Compile Include="Prober\DistributionAnalysis\Big5DistributionAnalysis.cs" />
     <Compile Include="Prober\DistributionAnalysis\CharDistributionAnalysis.cs" />
     <Compile Include="Prober\DistributionAnalysis\EUCJPDistributionAnalysis.cs" />
+    <Compile Include="Prober\DistributionAnalysis\EUCKRDistributionAnalysis.cs" />
+    <Compile Include="Prober\DistributionAnalysis\EUCTWDistributionAnalysis.cs" />
+    <Compile Include="Prober\DistributionAnalysis\GB2312DistributionAnalysis.cs" />
     <Compile Include="Prober\DistributionAnalysis\JISDistributionAnalysis.cs" />
+    <Compile Include="Prober\DistributionAnalysis\SJISDistributionAnalysis.cs" />
+    <Compile Include="Prober\Sequence\BulgarianModel.cs" />
+    <Compile Include="Prober\Sequence\CyrillicModel.cs" />
+    <Compile Include="Prober\Sequence\GreekModel.cs" />
+    <Compile Include="Prober\Sequence\HebrewModel.cs" />
+    <Compile Include="Prober\Sequence\Ibm855Model.cs" />
+    <Compile Include="Prober\Sequence\Ibm866Model.cs" />
+    <Compile Include="Prober\Sequence\Koi8rModel.cs" />
+    <Compile Include="Prober\Sequence\Latin5BulgarianModel.cs" />
+    <Compile Include="Prober\Sequence\SequenceModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Prober\Sequence\" />
     <Folder Include="Prober\StateMachine\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
