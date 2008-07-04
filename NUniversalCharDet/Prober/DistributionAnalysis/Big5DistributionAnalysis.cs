@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
+﻿
 namespace Mozilla.NUniversalCharDet.Prober.DistributionAnalysis
 {
     public class Big5DistributionAnalysis : CharDistributionAnalysis
