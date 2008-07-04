@@ -41,7 +41,13 @@
     <Compile Include="Prober\ContextAnalysis\EUCJPContextAnalysis.cs" />
     <Compile Include="Prober\ContextAnalysis\JapaneseContextAnalysis.cs" />
     <Compile Include="Prober\ContextAnalysis\SJISContextAnalysis.cs" />
+    <Compile Include="Prober\DistributionAnalysis\Big5DistributionAnalysis.cs" />
+    <Compile Include="Prober\DistributionAnalysis\CharDistributionAnalysis.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Prober\Sequence\" />
+    <Folder Include="Prober\StateMachine\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

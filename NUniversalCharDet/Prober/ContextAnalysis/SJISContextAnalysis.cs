@@ -1,7 +1,7 @@
 ﻿
 namespace Mozilla.NUniversalCharDet.Prober.ContextAnalysis
 {
-    class SJISContextAnalysis : JapaneseContextAnalysis
+    public class SJISContextAnalysis : JapaneseContextAnalysis
     {
         ////////////////////////////////////////////////////////////////
         // constants
