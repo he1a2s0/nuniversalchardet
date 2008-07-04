@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
+﻿
 namespace Mozilla.NUniversalCharDet.Prober.Sequence
 {
     public abstract class SequenceModel
