@@ -38,6 +38,9 @@
   <ItemGroup>
     <Compile Include="Constants.cs" />
     <Compile Include="ICharsetListener.cs" />
+    <Compile Include="Prober\ContextAnalysis\EUCJPContextAnalysis.cs" />
+    <Compile Include="Prober\ContextAnalysis\JapaneseContextAnalysis.cs" />
+    <Compile Include="Prober\ContextAnalysis\SJISContextAnalysis.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
