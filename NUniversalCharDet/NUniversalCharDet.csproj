@@ -36,8 +36,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ByteBuffer.cs" />
     <Compile Include="Constants.cs" />
     <Compile Include="ICharsetListener.cs" />
+    <Compile Include="Prober\Big5Prober.cs" />
+    <Compile Include="Prober\CharsetProber.cs" />
     <Compile Include="Prober\ContextAnalysis\EUCJPContextAnalysis.cs" />
     <Compile Include="Prober\ContextAnalysis\JapaneseContextAnalysis.cs" />
     <Compile Include="Prober\ContextAnalysis\SJISContextAnalysis.cs" />
@@ -49,6 +52,15 @@
     <Compile Include="Prober\DistributionAnalysis\GB2312DistributionAnalysis.cs" />
     <Compile Include="Prober\DistributionAnalysis\JISDistributionAnalysis.cs" />
     <Compile Include="Prober\DistributionAnalysis\SJISDistributionAnalysis.cs" />
+    <Compile Include="Prober\EscCharsetProber.cs" />
+    <Compile Include="Prober\EUCJPProber.cs" />
+    <Compile Include="Prober\EUCKRProber.cs" />
+    <Compile Include="Prober\EUCTWProber.cs" />
+    <Compile Include="Prober\GB18030Prober.cs" />
+    <Compile Include="Prober\HebrewProber.cs" />
+    <Compile Include="Prober\Latin1Prober.cs" />
+    <Compile Include="Prober\MBCSGroupProber.cs" />
+    <Compile Include="Prober\SBCSGroupProber.cs" />
     <Compile Include="Prober\Sequence\BulgarianModel.cs" />
     <Compile Include="Prober\Sequence\CyrillicModel.cs" />
     <Compile Include="Prober\Sequence\GreekModel.cs" />
@@ -64,11 +76,24 @@
     <Compile Include="Prober\Sequence\Win1251BulgarianModel.cs" />
     <Compile Include="Prober\Sequence\Win1251Model.cs" />
     <Compile Include="Prober\Sequence\Win1253Model.cs" />
-    <Compile Include="Prober\StateMachine\Big5SMModel .cs" />
+    <Compile Include="Prober\SingleByteCharsetProber.cs" />
+    <Compile Include="Prober\SJISProber.cs" />
+    <Compile Include="Prober\StateMachine\Big5SMModel.cs" />
     <Compile Include="Prober\StateMachine\CodingStateMachine.cs" />
     <Compile Include="Prober\StateMachine\EUCJPSMModel.cs" />
+    <Compile Include="Prober\StateMachine\EUCKRSMModel.cs" />
+    <Compile Include="Prober\StateMachine\EUCTWSMModel.cs" />
+    <Compile Include="Prober\StateMachine\GB18030SMModel.cs" />
+    <Compile Include="Prober\StateMachine\HZSMModel.cs" />
+    <Compile Include="Prober\StateMachine\ISO2022CNSMModel.cs" />
+    <Compile Include="Prober\StateMachine\ISO2022JPSMModel.cs" />
+    <Compile Include="Prober\StateMachine\ISO2022KRSMModel.cs" />
     <Compile Include="Prober\StateMachine\PkgInt.cs" />
+    <Compile Include="Prober\StateMachine\SJISSMModel.cs" />
     <Compile Include="Prober\StateMachine\SMModel.cs" />
+    <Compile Include="Prober\StateMachine\UCS2BESMModel.cs" />
+    <Compile Include="Prober\StateMachine\UTF8SMModel.cs" />
+    <Compile Include="Prober\UTF8Prober.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
