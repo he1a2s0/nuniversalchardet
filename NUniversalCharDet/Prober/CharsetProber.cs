@@ -44,7 +44,7 @@ namespace Mozilla.NUniversalCharDet.Prober
 		// ByteBuffer.position() indicates number of bytes written.
 		public ByteBuffer filterWithoutEnglishLetters(byte[] buf, int offset, int length)
 		{
-			ByteBuffer outByteBuffer = new ByteBuffer(new byte[length]);
+			ByteBuffer outByteBuffer = new ByteBuffer();
 			
 			bool meetMSB = false;
 			byte c;
@@ -84,7 +84,7 @@ namespace Mozilla.NUniversalCharDet.Prober
 		
 		public ByteBuffer filterWithEnglishLetters(byte[] buf, int offset, int length)
 		{
-			ByteBuffer outByteBuffer = new ByteBuffer(new byte[length]);
+			ByteBuffer outByteBuffer = new ByteBuffer();
 			
 			bool isInTag = false;
 			byte c;
