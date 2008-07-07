@@ -34,7 +34,7 @@ namespace Mozilla.NUniversalCharDet.Prober
 		public CharsetProber()
 		{}
 		
-		public abstract String getCharSetName();
+		public abstract string getCharSetName();
 		public abstract ProbingState handleData(byte[] buf, int offset, int length);
 		public abstract ProbingState getState();
 		public abstract void reset();

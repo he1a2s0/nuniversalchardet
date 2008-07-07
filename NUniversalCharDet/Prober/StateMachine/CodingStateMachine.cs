@@ -42,7 +42,7 @@ namespace Mozilla.NUniversalCharDet.Prober.StateMachine
             this.currentState = SMModel.START;
         }
 
-        public String getCodingStateMachine()
+        public string getCodingStateMachine()
         {
             return this.model.getName();
         }
