@@ -29,10 +29,10 @@ namespace Mozilla.NUniversalCharDet
         public static string CHARSET_UTF_32BE = "UTF-32BE";
         public static string CHARSET_UTF_32LE = "UTF-32LE";
         //.NET直接支持GB2312编码的
-        public static string CHARSET_HZ_GB_2312 = "GB2312"; 
+        //public static string CHARSET_HZ_GB_2312 = "GB2312"; 
 
         // WARNING: Listed below are charsets which Java does not support.
-        //public static string CHARSET_HZ_GB_2312 = "HZ-GB-2312"; // Simplified Chinese
+        public static string CHARSET_HZ_GB_2312 = "HZ-GB-2312"; // Simplified Chinese
         public static string CHARSET_X_ISO_10646_UCS_4_3412 = "X-ISO-10646-UCS-4-3412"; // Malformed UTF-32
         public static string CHARSET_X_ISO_10646_UCS_4_2143 = "X-ISO-10646-UCS-4-2143"; // Malformed UTF-32
     }
