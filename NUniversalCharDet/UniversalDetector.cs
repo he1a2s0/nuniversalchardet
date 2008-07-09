@@ -59,10 +59,10 @@ namespace Mozilla.NUniversalCharDet
                 this.probers[i] = null;
             }
 
-            reset();
+            Reset();
         }
 
-        public bool isDone()
+        public bool IsDone()
         {
             return this.done;
         }
@@ -71,22 +71,22 @@ namespace Mozilla.NUniversalCharDet
          * @return The detected encoding is returned. If the detector couldn't
          *          determine what encoding was used, null is returned.
          */
-        public string getDetectedCharset()
+        public string GetDetectedCharset()
         {
             return this.detectedCharset;
         }
 
-        public void setListener(ICharsetListener listener)
+        public void SetListener(ICharsetListener listener)
         {
             this.listener = listener;
         }
 
-        public ICharsetListener getListener()
+        public ICharsetListener GetListener()
         {
             return this.listener;
         }
 
-        public void handleData(byte[] buf, int offset, int length)
+        public void HandleData(byte[] buf, int offset, int length)
         {
             if (this.done)
             {
@@ -229,7 +229,7 @@ namespace Mozilla.NUniversalCharDet
             }
         }
 
-        public void dataEnd()
+        public void DataEnd()
         {
             if (!this.gotData)
             {
@@ -281,7 +281,7 @@ namespace Mozilla.NUniversalCharDet
             }
         }
 
-        public void reset()
+        public void Reset()
         {
             this.done = false;
             this.start = true;
