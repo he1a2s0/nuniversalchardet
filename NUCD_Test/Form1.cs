@@ -53,7 +53,9 @@ namespace NUCD_Test
                     msTemp.Seek(0, SeekOrigin.Begin);
                     int DetLen = 0;
                     byte[] DetectBuff = new byte[4096];
-                    CharsetListener listener = new CharsetListener();
+
+                    //CharsetListener listener = new CharsetListener();
+
                     UniversalDetector Det = new UniversalDetector(null);
                     while ((DetLen = msTemp.Read(DetectBuff, 0, DetectBuff.Length)) > 0 && !Det.IsDone())
                     {
@@ -65,13 +67,14 @@ namespace NUCD_Test
                         CharSetBox.Text = "OK! CharSet=" + Det.GetDetectedCharset();
                         PageBox.Text = System.Text.Encoding.GetEncoding(Det.GetDetectedCharset()).GetString(PageBytes);
                     }
+                    Det.Reset();
                 }
 
 
             }
         }
     }
-
+    //Report作为ICharsetListener唯一的方法，在UniversalDetector.DataEnd时，如果找到了编码会调用
     public class CharsetListener : ICharsetListener
     {
         public string Charset;

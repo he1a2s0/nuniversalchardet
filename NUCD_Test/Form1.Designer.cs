@@ -78,7 +78,7 @@
             this.Controls.Add(this.Check);
             this.Controls.Add(this.UrlBox);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "UniversalCharDet";
             this.ResumeLayout(false);
             this.PerformLayout();
 
