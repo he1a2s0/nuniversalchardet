@@ -73,7 +73,7 @@ namespace Mozilla.NUniversalCharDet.Prober
 						this.lastChar[1] = buf[offset];
 						this.distributionAnalyzer.handleOneChar(this.lastChar, 0, charLen);
 					} else {
-						this.distributionAnalyzer.handleData(buf, i-1, charLen);
+                        this.distributionAnalyzer.handleOneChar(buf, i - 1, charLen);
 					}
 				}
 			}

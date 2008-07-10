@@ -18,7 +18,7 @@ namespace Mozilla.NUniversalCharDet
         public static string CHARSET_IBM855 = "IBM855";
         public static string CHARSET_IBM866 = "IBM866";
         public static string CHARSET_KOI8_R = "KOI8-R";
-        public static string CHARSET_MACCYRILLIC = "MACCYRILLIC";
+        public static string CHARSET_MACCYRILLIC = "x-mac-cyrillic"; //C#中"MACCYRILLIC"改名了
         public static string CHARSET_WINDOWS_1251 = "WINDOWS-1251";
         public static string CHARSET_WINDOWS_1252 = "WINDOWS-1252";
         public static string CHARSET_WINDOWS_1253 = "WINDOWS-1253";
