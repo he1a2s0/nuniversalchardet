@@ -73,6 +73,7 @@
     <Compile Include="Prober\Sequence\Latin7Model.cs" />
     <Compile Include="Prober\Sequence\MacCyrillicModel.cs" />
     <Compile Include="Prober\Sequence\SequenceModel.cs" />
+    <Compile Include="Prober\Sequence\ThaiModel.cs" />
     <Compile Include="Prober\Sequence\Win1251BulgarianModel.cs" />
     <Compile Include="Prober\Sequence\Win1251Model.cs" />
     <Compile Include="Prober\Sequence\Win1253Model.cs" />

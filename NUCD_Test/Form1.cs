@@ -36,6 +36,8 @@ namespace NUCD_Test
                 MemoryStream msTemp = new MemoryStream();
                 int len = 0;
                 byte[] buff = new byte[512];
+                StreamReader ReadPage = new StreamReader(mystream);
+      
 
                 while ((len = mystream.Read(buff, 0, 512)) > 0)
                 {
@@ -57,10 +59,11 @@ namespace NUCD_Test
                     //CharsetListener listener = new CharsetListener();
 
                     UniversalDetector Det = new UniversalDetector(null);
-                    while ((DetLen = msTemp.Read(DetectBuff, 0, DetectBuff.Length)) > 0 && !Det.IsDone())
-                    {
-                        Det.HandleData(DetectBuff, 0, DetectBuff.Length);
-                    }
+                    //while ((DetLen = msTemp.Read(DetectBuff, 0, DetectBuff.Length)) > 0 && !Det.IsDone())
+                    //{
+                    //    Det.HandleData(DetectBuff, 0, DetectBuff.Length);
+                    //}
+                    Det.HandleData(PageBytes, 0, PageBytes.Length);
                     Det.DataEnd();
                     if (Det.GetDetectedCharset()!=null)
                     {

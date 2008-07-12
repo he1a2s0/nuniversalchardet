@@ -28,6 +28,7 @@ namespace Mozilla.NUniversalCharDet
         public static string CHARSET_UTF_16LE = "UTF-16LE";
         public static string CHARSET_UTF_32BE = "UTF-32BE";
         public static string CHARSET_UTF_32LE = "UTF-32LE";
+        public static string CHARSET_TIS_620 = "WINDOWS-874";//C#泰语的TIS-620在.NET里叫WINDOWS-874
         //.NET直接支持GB2312编码的
         //public static string CHARSET_HZ_GB_2312 = "GB2312"; 
 
